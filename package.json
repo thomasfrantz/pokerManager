@@ -1,0 +1,40 @@
+{
+  "name": "poker_manager",
+  "version": "0.0.1",
+  "description": "Stocks data of poker games and creates statistics",
+  "scripts": {
+	"server": "http-server",
+  
+    "prepublish": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasfrantz/pokerManager.git"
+  },
+  "keywords": [
+    "angularjs",
+    "express",
+    "nodejs",
+    "mongodb",
+    "poker",
+    "statistics"
+  ],
+  "author": "Thomas Frantz <thom.frantz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/istex/istex-widgets-angular/issues",
+    "email": "thom.frantz@gmail.com"
+  },
+  "dependencies": {
+    "bower": "~1.4.1",
+    "clean-css": "~3.2.10",
+    "express": "~4.12.4",
+    "mongodb": "~2.0.33",
+    "uglify-js": "~2.4.23"
+  },
+  "devDependencies": {
+    "http-server": "~0.8.0"
+  },
+  "private": true,
+  "homepage": "https://github.com/thomasfrantz/pokerManager#readme"
+}
