@@ -1,9 +1,10 @@
 {
   "name": "poker_manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
-    "server": "http-server",
+	"js": "uglifyjs app/app.js app/controllers/homeCtrl.js app/controllers/gamesCtrl.js app/services/gamesService.js app/directives/menuDirective.js -o public/js/app.min.js -cE",
+    
     "prepublish": "bower install"
   },
   "repository": {
