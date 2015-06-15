@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
-	"server": "http-server",
-  
+    "server": "http-server",
     "prepublish": "bower install"
   },
   "repository": {
@@ -33,7 +32,6 @@
     "uglify-js": "~2.4.23"
   },
   "devDependencies": {
-    "http-server": "~0.8.0"
   },
   "private": true,
   "homepage": "https://github.com/thomasfrantz/pokerManager#readme"
