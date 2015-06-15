@@ -1,6 +1,6 @@
 {
   "name": "poker_manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
     "server": "http-server",
@@ -31,8 +31,7 @@
     "mongodb": "~2.0.33",
     "uglify-js": "~2.4.23"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "private": true,
   "homepage": "https://github.com/thomasfrantz/pokerManager#readme"
 }
