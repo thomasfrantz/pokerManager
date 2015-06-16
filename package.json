@@ -4,8 +4,8 @@
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
     "build": "node build",
-	"server": "node index",
-	"launch": "bower install && node build && node index",
+    "server": "node index",
+    "launch": "bower install && node build && node index",
     "prepublish": "bower install"
   },
   "repository": {
@@ -32,9 +32,10 @@
     "mongodb": "~2.0.33"
   },
   "devDependencies": {
-	"clean-css": "~3.2.10",
+    "clean-css": "~3.2.10",
     "glob": "~5.0.10",
-    "uglify-js": "~2.4.23"
+    "uglify-js": "~2.4.23",
+	"mkdirp": "~0.5.1"
   },
   "private": true,
   "homepage": "https://github.com/thomasfrantz/pokerManager#readme"
