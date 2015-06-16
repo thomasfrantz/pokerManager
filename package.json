@@ -1,10 +1,11 @@
 {
   "name": "poker_manager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
-	"js": "uglifyjs app/app.js app/controllers/homeCtrl.js app/controllers/gamesCtrl.js app/services/gamesService.js app/directives/menuDirective.js -o public/js/app.min.js -cE",
-    
+    "build": "node build",
+	"server": "node index",
+	"launch": "bower install && node build && node index",
     "prepublish": "bower install"
   },
   "repository": {
@@ -27,12 +28,14 @@
   },
   "dependencies": {
     "bower": "~1.4.1",
-    "clean-css": "~3.2.10",
     "express": "~4.12.4",
-    "mongodb": "~2.0.33",
+    "mongodb": "~2.0.33"
+  },
+  "devDependencies": {
+	"clean-css": "~3.2.10",
+    "glob": "~5.0.10",
     "uglify-js": "~2.4.23"
   },
-  "devDependencies": {},
   "private": true,
   "homepage": "https://github.com/thomasfrantz/pokerManager#readme"
 }

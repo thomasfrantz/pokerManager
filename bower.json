@@ -1,6 +1,6 @@
 {
   "name": "poker_manager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/thomasfrantz/pokerManager#readme",
   "author": "Thomas Frantz <thom.frantz@gmail.com>",
   "description": "Stocks data of poker games and creates statistics",

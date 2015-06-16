@@ -7,6 +7,11 @@ var portNum = process.argv[2] || "8080";
 var users = require("./routes/users");
 var games = require("./routes/games");
 
+process.on('uncaughtException',function(err){
+	console.log("The port "+portNum+" is already being used !");
+	console.log(err);
+});
+
 // If a file path corresponds to a static resource, it's in /public
 app.use(express.static('public'));
 
@@ -24,5 +29,6 @@ app.all("/*", function(req, res){
 	res.sendFile(__dirname+"/public/index.html");
 });
 
-app.listen(portNum);
-console.log("App listening on port "+portNum+" from "+__dirname);
+app.listen(portNum, function(){
+	console.log("Poker Manager is listening on port "+portNum+" from "+__dirname);
+});
