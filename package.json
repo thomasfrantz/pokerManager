@@ -1,6 +1,6 @@
 {
   "name": "poker_manager",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Stocks data of poker games and creates statistics",
   "scripts": {
     "build": "node build",

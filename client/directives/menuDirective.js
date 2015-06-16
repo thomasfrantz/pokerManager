@@ -1,5 +1,5 @@
 app.directive('menuNav', function () {
     return {
-        templateUrl: '/templates/menu.html'
+        template: tpl_menu()
     };
 });
