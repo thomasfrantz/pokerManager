@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node build",
     "server": "node index",
-    "launch": "bower install && node build && node index",
+    "launch": "npm install && bower install && node build && node index",
     "prepublish": "bower install"
   },
   "repository": {
